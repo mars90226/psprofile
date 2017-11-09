@@ -1,0 +1,32 @@
+[user]
+	name = marspeng
+	email = marspeng@synology.com
+[core]
+	filemode = true
+	editor = vim
+	excludesfile = ~/.gitignore
+[alias]
+	st = status
+	ci = commit
+	co = checkout
+	br = branch
+	df = diff
+	pick = cherry-pick
+	fp = format-patch
+	la = log --graph --decorate --pretty=oneline --abbrev-commit --all
+	ll = log --graph --decorate --pretty=oneline --abbrev-commit
+	lf = log --graph --decorate --format=fuller --abbrev-commit
+[color]
+	ui = auto
+	diff = auto
+	status = auto
+	branch = auto
+	log = auto
+[push]
+	default = simple
+[diff]
+	tool = vimdiff
+[difftool "vimdiff"]
+	path = vim
+[core]
+	editor = \"C:/Program Files (x86)/GitExtensions/GitExtensions.exe\" fileeditor
